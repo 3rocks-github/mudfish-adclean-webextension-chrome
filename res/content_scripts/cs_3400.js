@@ -1,5 +1,5 @@
 
-function mudfish_adclean_1f0932b68cf71b43ab7c88ba2cfb9e48() {
+function mudfish_adclean_324e55b1d2ada3607b776efa8eae9a72() {
   try {
     Sizzle(`.nplr div[class=""] li:has(li:contains(AD))`).forEach(element => {
       element.style.display = "none";
@@ -9,13 +9,13 @@ function mudfish_adclean_1f0932b68cf71b43ab7c88ba2cfb9e48() {
   }
 }
 
-var mudfish_adclean_g_conf_1f0932b68cf71b43ab7c88ba2cfb9e48 = {
+var mudfish_adclean_g_conf_324e55b1d2ada3607b776efa8eae9a72 = {
   mudfish_adclean_filter_on: true
 };
-chrome.storage.local.get(mudfish_adclean_g_conf_1f0932b68cf71b43ab7c88ba2cfb9e48, function (items) {
-  if (mudfish_adclean_g_conf_1f0932b68cf71b43ab7c88ba2cfb9e48.mudfish_adclean_filter_on) {
+chrome.storage.local.get(mudfish_adclean_g_conf_324e55b1d2ada3607b776efa8eae9a72, function (items) {
+  if (mudfish_adclean_g_conf_324e55b1d2ada3607b776efa8eae9a72.mudfish_adclean_filter_on) {
     const observer = new MutationObserver(() => {
-      mudfish_adclean_1f0932b68cf71b43ab7c88ba2cfb9e48();
+      mudfish_adclean_324e55b1d2ada3607b776efa8eae9a72();
     });
     observer.observe(document, { childList: true, subtree: true });
   }

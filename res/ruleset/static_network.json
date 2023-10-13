@@ -5072,36 +5072,6 @@
         }
     },
     {
-        "id": 581,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||m.mydaily.co.kr/new/img/*.gif|"
-        }
-    },
-    {
-        "id": 582,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||mydaily.co.kr/ad/adimage/"
-        }
-    },
-    {
-        "id": 583,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "||mydaily.co.kr/new_yk/html/images_mj/*.gif|"
-        }
-    },
-    {
         "id": 584,
         "priority": 1,
         "action": {
@@ -13075,48 +13045,6 @@
         }
     },
     {
-        "id": 3344,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "initiatorDomains": [
-                "goodgag.net",
-                "bera.world",
-                "sellas.ink",
-                "hunigo.com",
-                "op.gg",
-                "windowsforum.kr",
-                "iteastory.com",
-                "snskeyboard.com",
-                "rdsong.com",
-                "mongri.net",
-                "meeco.kr",
-                "poketory.com",
-                "youthassembly.kr",
-                "kr.jugomobile.com",
-                "1412.live",
-                "pyrasis.com",
-                "oceansabyss.com",
-                "yongtj.com",
-                "dora-guide.com",
-                "tailstar.net",
-                "creativestudio.kr",
-                "gamejay.net",
-                "mksports.co.kr",
-                "sisamagazine.co.kr",
-                "dreamrail.co.kr",
-                "tistory.com",
-                "gukjenews.com",
-                "issuelink.co.kr",
-                "webtool.cusis.net",
-                "koreaminecraft.net"
-            ],
-            "urlFilter": "||fundingchoicesmessages.google.com^"
-        }
-    },
-    {
         "id": 3345,
         "priority": 1,
         "action": {
@@ -13318,6 +13246,69 @@
                 "wfwf303.com"
             ],
             "regexFilter": "^https:\\/\\/iabn[0-9]+\\.net\\/"
+        }
+    },
+    {
+        "id": 3389,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||mydaily.co.kr/upload/ads/"
+        }
+    },
+    {
+        "id": 3390,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "regexFilter": "^https:\\/\\/agit[0-9]+\\.com\\/upload\\/[0-9]+\\/[0-9]+\\/[0-9]+\\."
+        }
+    },
+    {
+        "id": 3401,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "initiatorDomains": [
+                "singingdalong.blogspot.com",
+                "goodgag.net",
+                "bera.world",
+                "sellas.ink",
+                "hunigo.com",
+                "op.gg",
+                "windowsforum.kr",
+                "iteastory.com",
+                "snskeyboard.com",
+                "rdsong.com",
+                "mongri.net",
+                "meeco.kr",
+                "poketory.com",
+                "youthassembly.kr",
+                "kr.jugomobile.com",
+                "1412.live",
+                "pyrasis.com",
+                "oceansabyss.com",
+                "yongtj.com",
+                "dora-guide.com",
+                "tailstar.net",
+                "creativestudio.kr",
+                "gamejay.net",
+                "mksports.co.kr",
+                "sisamagazine.co.kr",
+                "dreamrail.co.kr",
+                "tistory.com",
+                "gukjenews.com",
+                "issuelink.co.kr",
+                "webtool.cusis.net",
+                "koreaminecraft.net"
+            ],
+            "urlFilter": "||fundingchoicesmessages.google.com^"
         }
     }
 ]

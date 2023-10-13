@@ -1,5 +1,5 @@
 
-function mudfish_adclean_9bd94e941c8c1f717ae58f962214acef() {
+function mudfish_adclean_beba7c10759f449fcedb9769ebbb7c87() {
   try {
     Sizzle(`div[class$="ad"][id$="ad"]`).forEach(element => {
       element.style.display = "none";
@@ -9,13 +9,13 @@ function mudfish_adclean_9bd94e941c8c1f717ae58f962214acef() {
   }
 }
 
-var mudfish_adclean_g_conf_9bd94e941c8c1f717ae58f962214acef = {
+var mudfish_adclean_g_conf_beba7c10759f449fcedb9769ebbb7c87 = {
   mudfish_adclean_filter_on: true
 };
-chrome.storage.local.get(mudfish_adclean_g_conf_9bd94e941c8c1f717ae58f962214acef, function (items) {
-  if (mudfish_adclean_g_conf_9bd94e941c8c1f717ae58f962214acef.mudfish_adclean_filter_on) {
+chrome.storage.local.get(mudfish_adclean_g_conf_beba7c10759f449fcedb9769ebbb7c87, function (items) {
+  if (mudfish_adclean_g_conf_beba7c10759f449fcedb9769ebbb7c87.mudfish_adclean_filter_on) {
     const observer = new MutationObserver(() => {
-      mudfish_adclean_9bd94e941c8c1f717ae58f962214acef();
+      mudfish_adclean_beba7c10759f449fcedb9769ebbb7c87();
     });
     observer.observe(document, { childList: true, subtree: true });
   }
