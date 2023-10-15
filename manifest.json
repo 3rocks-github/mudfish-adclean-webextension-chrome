@@ -15974,15 +15974,6 @@
         },
         {
             "matches": [
-                "*://*.youtube.com/*"
-            ],
-            "js": [
-                "/js/sizzle.js",
-                "/res/content_scripts/cs_3239.js"
-            ]
-        },
-        {
-            "matches": [
                 "*://mnews.imaeil.com/*"
             ],
             "js": [
@@ -17530,11 +17521,40 @@
         },
         {
             "matches": [
+                "*://*.twitch.tv/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_twitch.js"
+            ],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3409.js"
+            ]
+        },
+        {
+            "matches": [
                 "*://*/*"
             ],
             "js": [
                 "/js/sizzle.js",
                 "/res/content_scripts/cs_all.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "*://*.twitch.tv/*"
+            ],
+            "resources": [
+                "/res/web_accessible_resources/war_twitch.js"
             ]
         }
     ]
