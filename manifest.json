@@ -17540,6 +17540,15 @@
         },
         {
             "matches": [
+                "*://search.naver.com/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3410.js"
+            ]
+        },
+        {
+            "matches": [
                 "*://*/*"
             ],
             "js": [
