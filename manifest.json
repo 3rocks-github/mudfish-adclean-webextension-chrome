@@ -17549,6 +17549,15 @@
         },
         {
             "matches": [
+                "*://search.daum.net/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "/res/content_scripts/cs_3411.js"
+            ]
+        },
+        {
+            "matches": [
                 "*://*/*"
             ],
             "js": [
