@@ -18052,6 +18052,15 @@
         },
         {
             "matches": [
+                "*://*.dogdrip.net/*"
+            ],
+            "js": [
+                "/js/sizzle.js",
+                "res/content_scripts/cs_3544.js"
+            ]
+        },
+        {
+            "matches": [
                 "*://*/*"
             ],
             "js": [
